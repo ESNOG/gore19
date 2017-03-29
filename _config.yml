@@ -1,0 +1,225 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "GORE 19"
+email: "gore-org@esnog.net"
+description: "ESNOG (España Network Operators Group / Grupo de Operadores de Red Españoles) celebrará su decimonovena reunión el Jueves 6 de Abril y Viernes 7 de Abril de 2017 en el CSUC/CATNIX"
+baseurl: "/zeppelin"
+url: "https://esnog.github.io/gore19"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-93709719-1"
+googleAnalyticsSiteUrl: "esnog.github.io"
+siteVerification: "LGjGAet7QmuCAf6r8g-BGU0FSrMpy_AQXJDKbUVbTJI"
+
+# Organizer Info
+organizerName: "ESNOG"
+organizerAlternateName: "Grupo de Operadores de Red Españoles"
+organizerDescription: "ESNOG es un foro abierto para el intercambio de información técnica, experiencias operacionales y conocimientos de ingeniería relacionados con los servicios de infraestructura de Internet con el objetivo de mejorar el intercambio de experiencias e información entre ingenieros además de aumentar la colaboración y la coordinacion entre redes en España."
+organizerEmail: "gore@esnog.net "
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "http://www.esnog.net/"
+
+# Head
+metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+twitterAccount: "@ESNOG1"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4pUrl: "mailto:gore-org@esnog.net"
+c4sponsorsUrl: "mailto:gore-org@esnog.net"
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/schedule/", text: "Agenda"}
+ - {permalink: "/speakers/", text: "Ponentes"}
+ - {permalink: "/team/", text: "Organizadores"}
+ - {permalink: "/logistics/", text: "Logística"}
+bottomNavigationLinks:
+ - {link: "mailto:gore-org@esnog.net", text: "¿Quiere ser patrocinador?"}
+rightNavigationButtons:
+ - {link: "mailto:gore-org@esnog.net", text: "¿Quiere ser patrocinador?"}
+
+# Hero Block
+heroImage: "hero-annexus.jpg"
+heroTitle: Gore <typeout> 19
+eventDate: "Jueves 6 y Viernes 7 de Abril, 2017"
+typeoutTextValues: '"", "Barcelona", "CSUC", "CATNIX"'
+typeoutFallback: "Barcelona"
+heroButtons:
+ - {link: "http://www.esnog.net/gore19/gore19-participar-habilitado.html", text: "Incripción"}
+ - {link: "http://www.esnog.net/gore19/lista.html", text: "Listado de asistentes"}
+ - {link: "mailto:gore-org@esnog.net", text: "¿Quiere ser ponente?"}
+
+# About Block
+aboutTitle: "Acerca de GORE 19"
+aboutBlock:
+ - {title: "Reunión", image: "hero-csuc.jpg", text: "ESNOG (España Network Operators Group / Grupo de Operadores de Red Españoles) celebrará su decimonovena reunión el Jueves 6 de Abril y Viernes 7 de Abril de 2017 en el CSUC/CATNIX" }
+ - {title: "Presentaciones", image: "presentaciones.png", text: "Dos dias en las que tendremos un total de 9 presentaciones." }
+ - {title: "Evento Social", image: "evento-social.jpg", text: "En esta ocasión contamos con el patrocinio de F5 para el evento social. El Día 6 tendrá lugar una cena en un restaurante que anunciaremos en breve." }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "83", specialCharacter: "+", info: "asistentes", detail: "de todas partes"}
+ - {count: "24", specialCharacter: "+", info: "horas", detail: "de intercambio de información técnica, experiencias operacionales y conocimientos de ingeniería relacionados con los servicios de infraestructura de Internet."}
+ - {count: "9", specialCharacter: "+", info: "ponentes", detail: "de clase mundial"}
+
+
+# Latest News Block
+latestNewsTitle: "Últimas noticias"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Ponentes"
+rockstarSpeakersButtonText: "Más información"
+
+# Location Block
+locationBlockTitle: "Ubicación"
+eventLocationName: "CSUC/CATNIX"
+eventLocationLink: "http://www.csuc.cat/es/el-csuc/el-consorcio/ubicacion"
+eventStreetAddress: "C/ Gran Capità, s/n"
+eventAddressLocality: "Barcelona"
+eventAddressLocalityRegion: "Cataluña"
+eventPostalCode: "08034"
+eventAddressCountry: "España"
+eventStartTime: "2017-04-06T09:30"
+eventDoorTime: "09:00"
+eventEndTime: "2017-04-06T18:00"
+eventPlaceCoordinates: "41.387324, 2.111869"
+mapCenterCoordinates: "41.387324, 2.111869"
+mapMobileCenterCoordinates: "41.387324, 2.111869"
+
+# Venue Block
+venueBlockTitle: "Recinto"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "CSUC/CATNIX"
+venueFeatures: ["10.000 m2 construidos con forma cilíndrica", "Espacios de encuentro y meeting corners", "Entorno de investigación colaborativa e innovación."]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "¿Que está pasando?"
+twitterHashTag: "esnog19"
+#twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+
+# Partners Block
+organizersTitle: "Organizadores"
+partnersTitle: "Patrocinadores"
+partnersC4sponsorsButton: "¿Quiere ser patrocinador?"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+
+# Footer
+socialLinks:
+ - {link: "https://plus.google.com/+EsnogNet", icon: "google-plus"}
+ - {link: "https://twitter.com/intent/user?screen_name=ESNOG1", icon: "twitter"}
+ - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+  title: "Enlaces"
+  links:
+   - {link: "http://www.esnog.net/", text: "ESNOG.net"}
+   - {link: "http://www.espanix.net/", text: "ESpanix"}
+   - {link: "http://www.csuc.cat/es", text: "CSUC"}
+   - {link: "http://www.catnix.net/es/", text: "CATNIX"}
+   - {link: "https://f5.com/es", text: "F5"}
+ -
+  title: "Contacto"
+  links:
+   - {link: "mailto:gore-org@esnog.net", text: "gore-org@esnog.net"}
+ -
+  title: "FAQ"
+  links:
+   - {link: "https://esnog.slack.com", text: "Slack"}
+   - {link: "https://plus.google.com/+EsnogNet/posts", text: "Video reuniones anteriores"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "devfestua"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "Sobre nosotros"
+aboutUs: "Un foro para el intercambio de información técnica, experiencias operacionales y conocimientos de ingeniería relacionados con los servicios de infraestructura de Internet.
+
+Objetivos: Mejorar el intercambio de experiencias e información entre ingenierios,
+mejorar la coordinacion entre redes en España y crear un foro abierto para mejorar la colaboración"
+
+# Logistics Find Way Block
+findWayTitle: "Como llegar"
+findWayDistance: "Distancia"
+findWayDriving: "CONDUCIENDO"
+findWayWalking: "ANDANDO"
+findWayBicycling: "BICICLETA"
+findWayTransit: "TRANSPORTE PÚBLICO"
+findWayFindFlight: "Encontrar vuelos"
+logisticsMapCenterCoordinates: "41.387324, 2.111869"
+logisticsMapMobileCenterCoordinates: "41.387324, 2.111869"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+directionDetailsTitle: "Conoce Barcelona"
+directionDetailsCards:
+ - {title: "Desde el aeropuerto", information: 'Con la nueva L9 – Sud. Desde el aeropuerto hasta Zona Universitária.'}
+ - {title: "Transporte público", information: 'Aquí tienen enlaces a las páginas de <a href="http://www.tmb.cat/es/home">Bus, metro</a> y <a href="http://www.tram.cat/es/">Tram</a>.'}
+ - {title: "Hoteles", information: 'El CSUC/CATNIX tiene una <a href="http://www.esnog.net/gore19/gore19-files/Hoteles_en_Barcelona.pdf">lista</a> de varios alojamientos <a href="https://www.google.com/maps/d/viewer?mid=zzqIqWVSmhQo.kOKSkhlMtsX0">cercanos</a>, utilizable para el evento.'}
+directionDetailsWideCards:
+ -
+  title: "Hoteles"
+  subCards:
+   -
+    title: ""
+    links:
+     - {link: "http://www.nh-hoteles.es/hotel/hesperia-sant-just", text: "NH Hesperia Sant Just"}
+     - {link: "http://www.abbagardenhotel.com/es/home.html", text: "Abba Garden Hotel"}
+     - {link: "http://www.atiramhotels.com/hoteles/barcelona/hotel-arenasatiram-cerca-camp-nou/", text: "Hotel Arenas Atiram"}
+     - {link: "http://www.hotelmadanis.com/", text: "Hotel Madanis"}
+     - {link: "https://www.mediumhoteles.com/es/espana/barcelona/sants/hotelmedium-prisma", text: "Hotel Medium Prisma"}
+
+   -
+    title: ""
+    links:
+     - {link: "http://www.hotelesplugues.com/", text: "Hotel Esplugues"}
+     - {link: "http://www.barcelo.com/barcelohotels/es_es/hoteles/espana/barcelo", text: "Hotel Barceló Sants"}
+     - {link: "http://www.hotelmadanisliceo.com/", text: "Hotel Madanis Liceo"}
+     - {link: "http://www.hotelescatalonia.com/es/nuestros_hoteles/europa/espanya/catalunya/barcel", text: "Catalonia Rigoletto"}
+   -
+    title: ""
+    links:
+     - {link: "http://www.hotelbonanovapark.com/home/index.php", text: "Hotel Bonanova  Park"}
+     - {link: "http://www.senatorbarcelonaspahotel.com/", text: "Senator Barcelona Spa"}
+     - {link: "http://www.hotel-upperdiagonal.com/", text: "Hotel Upper Diagonal"}
+     - {link: "http://www.marriott.com/hotels/travel/bcnsu-ac-hotel-victoriasuites/", text: "AC Hotel Victoria Suites"}
+ -
+  title: "Residencias"
+  subCards:
+   -
+    title: ""
+    links:
+     - {link: "http://www.resa.es/es/residencias/barcelona/residencia-universitaria-torre-girona/residencia/", text: "RESA Torre Girona (a 9 minutos del CSUC)"}
+     - {link: "http://www.resainn.com/alojamiento/barcelona/residencia-investigadors/", text: "RESA d’Investigadors (media hora en metro L3)"}
+

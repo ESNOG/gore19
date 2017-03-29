@@ -1,0 +1,4 @@
+-
+  group: ""
+  elements:
+    - {name: "ESNOG", description: "Un foro para el intercambio de información técnica, experiencias operacionales y conocimientos de ingeniería relacionados con los servicios de infraestructura de Internet.", link: "http://www.esnog.net/", imageUrl: "esnog.png"}

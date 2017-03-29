@@ -1,0 +1,7 @@
+-
+  group: ""
+  elements:
+    - {name: "ESpanix", description: "ESpanix", link: "http://espanix.es/", imageUrl: "Espanix_Logo_Nombre_Azul_escalado.jpg"}
+    - {name: "CSUC", description: "CSUC", link: "http://csuc.cat/es", imageUrl: "logo-csuc.png"}
+    - {name: "CATNIX", description: "CATNIX", link: "http://catnix.net/es/", imageUrl: "logo-catnix.png"}
+    - {name: "F5", description: "F5", link: "https://f5.com/es", imageUrl: "f5-logo-solid-rgb.png"}
