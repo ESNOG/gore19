@@ -7,7 +7,7 @@ For core information about the meeting, please go to http://www.esnog.net/gore19
 
 Quick Start
 -----------
-[Attendees](http://www.esnog.net/gore19/lista.html) (you **should be there**
+[Attendees](http://www.esnog.net/gore19/lista.html)  <--- you **should be there**
 
 [Home page](https://www.esnog.net).
 
