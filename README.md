@@ -23,4 +23,4 @@ If you cloned gore19 from GitHub, you will need to run `./autogen.sh` before
 
 For further information or support, please visit the
 [ESNOG website](http://www.esnog.net), or contact
-gore-org@caida.org.
+gore-org@esnog.net
